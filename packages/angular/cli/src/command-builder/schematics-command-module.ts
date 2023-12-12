@@ -65,6 +65,7 @@ export abstract class SchematicsCommandModule
         describe: 'Run through and reports activity without writing out results.',
         type: 'boolean',
         default: false,
+        alias: 'd',
       })
       .option('defaults', {
         describe: 'Disable interactive input prompts for options with a default.',
